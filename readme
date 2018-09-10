@@ -1,0 +1,9 @@
+A Note on Parameter Estimation for Misspecified Regression Models with Heteroskedastic Errors
+by J. P. Long 
+
+== folders ==
+ms : manuscript files
+code : code and data for generating plots and tables in ms/figs
+
+= generate all figures and plots
+run everything.R in code/ to run all code. all figures and tables in ms/figs will be regenerated. this takes about 4 hours when run on my machine using 14 cores. for best results, set the mc.cores variable in code/sdss.R to the number of cores available
